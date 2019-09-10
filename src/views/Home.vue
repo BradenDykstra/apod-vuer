@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>
+      <img alt="This is an A trust me" src="../assets/logo.png" />
+      POD
+    </h1>
+    <Apod />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Apod from "../components/Apod";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld
+    Apod
   }
-}
+};
 </script>
+
+<style>
+img {
+  transform: rotate(180deg);
+  height: 100px;
+}
+</style>
