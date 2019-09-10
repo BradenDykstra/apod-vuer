@@ -23,6 +23,9 @@ export default {
       query: ""
     };
   },
+  mounted() {
+    this.getApod();
+  },
   computed: {},
   methods: {
     getApod() {

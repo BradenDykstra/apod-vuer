@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <div class="row mx-3">
-      <h1 class="col bg-dark">
+  <div class="home container-fluid">
+    <div class="row mx-3 rounded">
+      <h1 class="col bg-dark rounded-pill">
         <img alt="This is an A trust me" src="../assets/logo.png" />
         POD
       </h1>
