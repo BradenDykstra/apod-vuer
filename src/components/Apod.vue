@@ -8,7 +8,7 @@
     <br />
     <small>Click to Enlarge</small>
     <h5>{{ apod.date }}</h5>
-    <p class="mx-5">{{ apod.explanation }}</p>
+    <p class="mx-md-5">{{ apod.explanation }}</p>
 
     <div class="modal fade" id="bigimg" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-xl" role="document">
@@ -48,10 +48,14 @@ p {
   color: #010101;
 }
 .smolimg {
-  height: 400px;
+  max-height: 40%;
+  max-width: 40%;
 }
 .bigimg {
   max-height: 100%;
   max-width: 100%;
+}
+.modal-content {
+  background-color: #000000;
 }
 </style>

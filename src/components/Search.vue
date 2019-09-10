@@ -1,6 +1,6 @@
 <template>
   <div class="search text-light">
-    <div class="input-group my-3">
+    <div class="input-group my-3 col col-md-6 offset-md-3">
       <input type="date" class="form-control" v-model="query" />
       <div class="input-group-append">
         <button
